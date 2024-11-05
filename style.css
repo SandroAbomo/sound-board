@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url(./Blue\ Watercolor\ Painting\ Phone\ Wallpaper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: rgb(17, 34, 70);
+  color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  margin: 1rem;
+  font-size: 1.6rem;
+  width: 10rem;
+  padding: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:hover {
+  opacity: 0.6;
+}
